@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LifeCode - Chạm Đúng Mệnh, Mở Đúng Hướng</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #fefce8;
+      font-family: 'Segoe UI', sans-serif;
+    }
+  </style>
+</head>
+<body class="text-gray-800">
+  <!-- Hero Section -->
+  <section class="text-center py-16 px-6 bg-indigo-900 text-white">
+    <h1 class="text-4xl md:text-5xl font-bold text-yellow-300 mb-4">🌟 MỞ RA CÁNH CỬA VẬN MỆNH – BƯỚC VÀO HÀNH TRÌNH ĐÚNG THỜI</h1>
+    <p class="text-lg max-w-2xl mx-auto mb-2">LifeCode – Giải mã vận mệnh, dẫn đường đúng lúc cho từng lĩnh vực sống: tiền tài, tình cảm, học vấn, con cái, hôn nhân...</p>
+    <p class="italic text-yellow-200">🔮 Mỗi người đều mang một mật mã riêng – nhưng không phải ai cũng từng được chạm đúng thời điểm...</p>
+    <a href="#form" class="mt-8 inline-block bg-yellow-400 text-indigo-900 font-semibold py-3 px-6 rounded-full hover:bg-yellow-300 transition">📥 Nhận tư vấn cá nhân hoá</a>
+  </section>
+
+  <!-- Product Overview -->
+  <section class="py-12 px-6">
+    <div class="max-w-6xl mx-auto grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div class="bg-white shadow-xl rounded-lg overflow-hidden">
+        <div class="bg-red-600 p-4 text-white font-bold">MỆNH VẬN HÀNG NĂM</div>
+        <div class="p-4">
+          <p>📌 Dự báo chi tiết 12 tháng năng lượng cá nhân</p>
+          <p>🎯 Phù hợp: Người lập kế hoạch năm</p>
+          <p>💰 <s>1.500.000đ</s> 👉 <span class="font-bold text-red-500">750.000đ</span></p>
+        </div>
+      </div>
+      <div class="bg-white shadow-xl rounded-lg overflow-hidden">
+        <div class="bg-yellow-700 p-4 text-white font-bold">TIỀN TÀI & SỰ NGHIỆP</div>
+        <div class="p-4">
+          <p>📌 Định thời vận tài chính – phát triển nghề</p>
+          <p>🎯 Phù hợp: Người đang khởi nghiệp, đổi nghề</p>
+          <p>💰 <s>3.500.000đ</s> 👉 <span class="font-bold text-red-500">1.500.000đ</span></p>
+        </div>
+      </div>
+      <div class="bg-white shadow-xl rounded-lg overflow-hidden">
+        <div class="bg-pink-700 p-4 text-white font-bold">ĐƯỜNG TÌNH ĐỘC LẬP</div>
+        <div class="p-4">
+          <p>📌 Chữa lành sau đổ vỡ – tăng tần số tình yêu</p>
+          <p>🎯 Phù hợp: Người độc thân từng tổn thương</p>
+          <p>💰 <s>1.200.000đ</s> 👉 <span class="font-bold text-red-500">800.000đ</span></p>
+        </div>
+      </div>
+      <div class="bg-white shadow-xl rounded-lg overflow-hidden">
+        <div class="bg-fuchsia-800 p-4 text-white font-bold">KẾT DUYÊN & HỢP ĐÔI</div>
+        <div class="p-4">
+          <p>📌 Đo độ hợp – Gỡ nút thắt tiềm ẩn</p>
+          <p>🎯 Phù hợp: Người đang yêu, kết hôn</p>
+          <p>💰 <s>1.900.000đ</s> 👉 <span class="font-bold text-red-500">1.000.000đ</span></p>
+        </div>
+      </div>
+      <div class="bg-white shadow-xl rounded-lg overflow-hidden">
+        <div class="bg-purple-800 p-4 text-white font-bold">ĐƯỜNG CON CÁI</div>
+        <div class="p-4">
+          <p>📌 Sinh con thuận vận – hỗ trợ tương lai</p>
+          <p>🎯 Phù hợp: Cặp đôi chuẩn bị mang thai</p>
+          <p>💰 <s>1.750.000đ</s> 👉 <span class="font-bold text-red-500">950.000đ</span></p>
+        </div>
+      </div>
+      <div class="bg-white shadow-xl rounded-lg overflow-hidden">
+        <div class="bg-blue-900 p-4 text-white font-bold">ĐƯỜNG HỌC & NGHỀ NGHIỆP</div>
+        <div class="p-4">
+          <p>📌 Định hướng học – chọn ngành theo mệnh</p>
+          <p>🎯 Phù hợp: Học sinh, sinh viên, phụ huynh</p>
+          <p>💰 <s>1.550.000đ</s> 👉 <span class="font-bold text-red-500">990.000đ</span></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gợi mở khách hàng -->
+  <section class="bg-yellow-50 py-12 px-6 text-center">
+    <div class="max-w-4xl mx-auto">
+      <h2 class="text-2xl font-bold mb-4 text-indigo-900">🌟 Anh/Chị có từng tự hỏi:</h2>
+      <p class="mb-2">🔍 Tại sao mình đã cố gắng rất nhiều... nhưng mọi thứ vẫn chưa khởi sắc?</p>
+      <p class="mb-2">🔑 Có thể Anh/Chị không sai – chỉ là chưa đúng thời vận!</p>
+      <p class="mb-6 italic text-gray-700">Một bản giải mã đúng lúc có thể không chỉ giúp nhìn rõ hướng đi... mà còn mở ra những cánh cửa chưa từng thấy!</p>
+      <p class="text-lg font-semibold text-pink-700">Hãy để Em soi một tầng khí vận – để Anh/Chị nhìn thấy chính mình trong một ánh sáng khác 💫</p>
+    </div>
+  </section>
+
+  <!-- Form Section -->
+  <section id="form" class="py-12 px-6 bg-white">
+    <div class="max-w-xl mx-auto text-center">
+      <h3 class="text-2xl font-bold mb-4">📥 Gửi thông tin – Nhận bản giải mã cá nhân</h3>
+      <form class="space-y-4">
+        <input type="text" placeholder="Họ và tên" class="w-full p-3 rounded border">
+        <input type="text" placeholder="Ngày tháng năm sinh (VD: 01/01/1990)" class="w-full p-3 rounded border">
+        <input type="text" placeholder="Giờ sinh (nếu có)" class="w-full p-3 rounded border">
+        <input type="email" placeholder="Email hoặc Zalo nhận kết quả" class="w-full p-3 rounded border">
+        <button type="submit" class="bg-indigo-800 text-white font-semibold py-3 px-6 rounded-full hover:bg-indigo-700 transition">Gửi & Nhận Gợi Mở</button>
+      </form>
+      <p class="text-sm text-gray-500 mt-4 italic">⏳ Thời gian ưu đãi có hạn – mỗi linh hồn có một chu kỳ riêng để bừng nở. Đừng để thời vận trôi qua mà không ai nhắc bạn!</p>
+    </div>
+  </section>
+
+  <footer class="bg-indigo-900 text-white py-6 text-center">
+    <p>📞 HOTLINE: 0866.46.86.87 | 🌐 WEBSITE: <a href="https://lifecode.com.vn" class="underline">lifecode.com.vn</a></p>
+    <p class="text-yellow-200 mt-2 italic">Giải mã vận mệnh – Làm chủ cuộc đời ✨</p>
+  </footer>
+</body>
+</html>
